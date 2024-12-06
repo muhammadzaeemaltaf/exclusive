@@ -204,7 +204,7 @@ export default function Checkout() {
                 >
                   <div className="flex items-center space-x-4">
                     <Image
-                      src="/sideImage.jfif"
+                      src="/sideImage.jpg"
                       alt={item.name}
                       width={40}
                       height={40}

@@ -88,7 +88,7 @@ export default function ShoppingCart() {
                       <td className="py-4">
                         <div className="flex items-center gap-4">
                           <Image
-                            src={"/sideImage.jfif"}
+                            src={"/sideImage.jpg"}
                             alt={item.name}
                             width={60}
                             height={60}

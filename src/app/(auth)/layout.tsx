@@ -30,7 +30,7 @@ export default function RootLayout({
         <div className="flex w-full">
          <div className="h-full hidden lg:block">
          <Image
-            src={"/authImage.jfif"}
+            src={"/authImage.jpg"}
             alt="authImage"
             width={1000}
             height={1000}

@@ -28,7 +28,7 @@ const Wishlist = () => {
                 <div className="p-1">
                   <div className="aspect-square relative overflow-hidden group rounded transition-all duration-150">
                     <Image
-                      src={"/sideImage.jfif"}
+                      src={"/sideImage.jpg"}
                       alt={item.products[0].name}
                       height={1000}
                       width={1000}
@@ -88,7 +88,7 @@ const Wishlist = () => {
               <div className="p-1">
                 <div className="aspect-square relative overflow-hidden group rounded transition-all duration-150">
                   <Image
-                    src={"/sideImage.jfif"}
+                    src={"/sideImage.jpg"}
                     alt={item.products[0].name}
                     height={1000}
                     width={1000}

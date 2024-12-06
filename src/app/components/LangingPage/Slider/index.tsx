@@ -57,7 +57,7 @@ const Slider = () => {
 
               <div className=" w-1/2 h-full py-10 md:py-0">
                 <Image
-                  src="/sideImage.jfif"
+                  src="/sideImage.jpg"
                   alt="image"
                   width={1000}
                   height={1000}

@@ -11,7 +11,7 @@ const NewArrival = () => {
       <div className="flex flex-col md:flex-row gap-4 mg:h-[600px] pt-4">
         <div className="relative md:w-1/2 overflow-hidden bg-black">
           <Image
-            src="/sideImage.jfif"
+            src="/sideImage.jpg"
             alt="PlayStation 5"
             height={600}
             width={600}
@@ -32,7 +32,7 @@ const NewArrival = () => {
             {/* Top product */}
             <div className="relative aspect-video overflow-hidden  bg-black">
               <Image
-                src="/sideImage.jfif"
+                src="/sideImage.jpg"
                 alt="Women's Collections"
                 height={300}
                 width={600}
@@ -53,7 +53,7 @@ const NewArrival = () => {
               {/* Bottom left product */}
               <div className="relative w-1/2 overflow-hidden  bg-black">
                 <Image
-                  src="/sideImage.jfif"
+                  src="/sideImage.jpg"
                   alt="Speakers"
                   height={250}
                   width={300}
@@ -72,7 +72,7 @@ const NewArrival = () => {
               {/* Bottom right product */}
               <div className="relative w-1/2 overflow-hidden  bg-black">
                 <Image
-                  src="/sideImage.jfif"
+                  src="/sideImage.jpg"
                   alt="Perfume"
                   height={250}
                   width={300}
