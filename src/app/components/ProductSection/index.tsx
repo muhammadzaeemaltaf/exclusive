@@ -16,6 +16,7 @@ import Image from "next/image";
 import { FaRegEye, FaRegHeart } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 import { CountdownTimer } from "../Timer";
+import Link from "next/link";
 
 const ProductSection = ({
   badgeTitle,
@@ -47,7 +48,9 @@ const ProductSection = ({
           <h1 className="text-2xl md:text-4xl font-semibold">{heading}</h1>
           {timer && <CountdownTimer />}
           {!slider && (
-            <Button className="bg-red-500 hover:bg-red-600 ml-auto md:ml-0">View All</Button>
+            <Button className="bg-red-500 hover:bg-red-600 ml-auto md:ml-0">
+              View All
+            </Button>
           )}
         </div>
 
@@ -87,7 +90,11 @@ const ProductSection = ({
                         </Button>
                       </div>
                       {showDiscount ? (
-                        <div className="mt-4">
+                        <div className="mt-4 relative">
+                          <Link
+                            href={`/product/${index}`}
+                            className="absolute inset-0 z-10"
+                          />
                           <strong>{item.products[0].name}</strong>
 
                           <p className="text-red-500 font-semibold">
@@ -112,7 +119,11 @@ const ProductSection = ({
                           </div>
                         </div>
                       ) : (
-                        <div className="mt-4">
+                        <div className="mt-4 relative">
+                          <Link
+                            href={`/product/${index}`}
+                            className="absolute inset-0 z-10"
+                          />
                           <strong>{item.products[0].name}</strong>
 
                           <div className="flex gap-2 items-center">
