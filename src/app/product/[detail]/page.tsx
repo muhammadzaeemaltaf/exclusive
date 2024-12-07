@@ -10,6 +10,7 @@ import Breadcrumb from "@/app/components/Breadcrumb";
 import { usePathname } from "next/navigation";
 import Badge from "@/app/components/Badge";
 import { FaRegEye, FaRegHeart } from "react-icons/fa";
+import Link from "next/link";
 
 const productImages = ["/1.png", "/2.png", "/3.png", "/4.png", "/5.png"];
 
@@ -134,7 +135,8 @@ export default function ProductPageWithGallery() {
                     </Button>
                   </div>
                   <Button className="flex-1 bg-red-500 hover:bg-red-600">
-                    Buy Now
+                   <Link href={"/checkout"}>
+                   Buy Now</Link>
                   </Button>
                   <Button variant="outline" size="icon">
                     <Heart className="h-4 w-4" />
